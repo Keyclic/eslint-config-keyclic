@@ -1,0 +1,31 @@
+{
+  "name": "@keyclic/eslint-config-keyclic",
+  "version": "1.0.0",
+  "author": {
+    "name": "Keyclic",
+    "email": "techies@keyclic.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Keyclic/eslint-config-keyclic/issues"
+  },
+  "description": "Configuration for eslint",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-ionic": "^0.0.2"
+  },
+  "homepage": "https://github.com/Keyclic/eslint-config-keyclic#readme",
+  "keywords": [
+    "eslint",
+    "lint",
+    "keyclic"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keyclic/eslint-config-keyclic.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  }
+}
