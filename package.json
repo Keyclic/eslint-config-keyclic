@@ -1,6 +1,6 @@
 {
   "name": "@keyclic/eslint-config-keyclic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Keyclic",
     "email": "techies@keyclic.com"
@@ -9,7 +9,7 @@
     "url": "https://github.com/Keyclic/eslint-config-keyclic/issues"
   },
   "description": "Configuration for eslint",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^4.12.1",
     "eslint-config-ionic": "^0.0.2"
   },
