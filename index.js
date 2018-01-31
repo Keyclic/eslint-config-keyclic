@@ -6,7 +6,8 @@ module.exports = {
   },
   'extends': [
     'eslint:recommended',
-    'eslint-config-ionic'
+    'ionic',
+    'standard'
   ],
   'rules': {
     'comma-style': ['error'],
