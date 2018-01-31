@@ -7,7 +7,7 @@ Common eslint rules/preferences by Keyclic.
 Add it in your project:
 
 ```
-npm install eslint-config-keyclic --save-dev
+npm install @keyclic/eslint-config-keyclic --save-dev
 ```
 
 Extend the rules from your eslint file:
@@ -15,9 +15,7 @@ Extend the rules from your eslint file:
 ```
 {
   "extends": [
-    "keyclic"
+    "@keyclic/eslint-config-keyclic"
   ]
 }
 ```
-
-Note: You can omit the `eslint-config-` prefix since it is automatically assumed by ESLint.
