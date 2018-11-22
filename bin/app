@@ -7,11 +7,13 @@ usage() {
     "
 }
 
-deploy () {
+deploy() {
+    rm -rf bundle 2>/dev/null
+    npm run build
     npm publish --access=public "$@"
 }
 
-main () {
+main() {
     if [[ -z ${1} ]]; then
         usage
         exit 0
