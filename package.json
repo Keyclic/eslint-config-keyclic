@@ -1,6 +1,6 @@
 {
   "name": "@keyclic/eslint-config-keyclic",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "author": "Keyclic techies team <techies@keyclic.com>",
   "bugs": {
     "url": "https://github.com/Keyclic/eslint-config-keyclic/issues"
