@@ -1,6 +1,7 @@
 # eslint-config-keyclic
 
-Common eslint rules/preferences by Keyclic.
+Common Eslint rules/preferences by Keyclic.
+Install all dependencies, now based on prettier.
 
 ## Install
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-#set -x  # print terminal command
-CURRENT_DIR=$(pwd)
-
 usage() {
     echo "Usage of \"app\" command:
 
@@ -15,13 +12,13 @@ deploy () {
 }
 
 main () {
-    if [ -z $1 ]; then
+    if [[ -z ${1} ]]; then
         usage
         exit 0
     fi
 
-    if [[ ! $1 =~ ^deploy$ ]]; then
-        echo "$1 is not a supported command."
+    if [[ ! ${1} =~ ^deploy$ ]]; then
+        echo "${1} is not a supported command."
         exit 1
     fi
 

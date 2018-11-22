@@ -1,17 +1,13 @@
-/yarn.lock
+bundle/
 
 ######################### Common configuration #########################
-### Dev configurations
-.rules/
-build/
-
 ### Packages managers
-node_modules/*
-platforms/*
-plugins/*
-vendor/*
+node_modules/
+platforms/
+plugins/
+vendor/
 
-### IDE template
+### IDE
 .idea/
 *.sublime-project
 *.sublime-workspace
