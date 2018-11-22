@@ -8,8 +8,6 @@ usage() {
 }
 
 deploy() {
-    rm -rf bundle 2>/dev/null
-    npm run build
     npm publish --access=public "$@"
 }
 
