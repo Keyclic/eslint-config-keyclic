@@ -18,6 +18,7 @@ main() {
     fi
 
     if [[ ! ${1} =~ ^deploy$ ]]; then
+        usage
         echo "${1} is not a supported command."
         exit 1
     fi
