@@ -1,36 +1,36 @@
 {
-  "name": "@keyclic/eslint-config-keyclic",
-  "version": "1.2.4",
-  "author": "Keyclic techies team <techies@keyclic.com>",
-  "bugs": {
-    "url": "https://github.com/Keyclic/eslint-config-keyclic/issues"
-  },
-  "description": "Common Eslint rules/preferences by Keyclic. Install all dependencies, now based on prettier.",
-  "dependencies": {
-    "eslint": "^5.9.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.15.2"
-  },
-  "devDependencies": {
-    "husky": "^1.2.0",
-    "lint-staged": "^8.1.0"
-  },
-  "homepage": "https://github.com/Keyclic/eslint-config-keyclic#readme",
-  "keywords": [
-    "eslint",
-    "keyclic",
-    "lint",
-    "prettier"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Keyclic/eslint-config-keyclic.git"
-  },
-  "scripts": {
-    "build": "babel src --out-dir bundle",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "@keyclic/eslint-config-keyclic",
+    "version": "1.2.4",
+    "author": "Keyclic techies team <techies@keyclic.com>",
+    "bugs": {
+        "url": "https://github.com/Keyclic/eslint-config-keyclic/issues"
+    },
+    "description": "Common Eslint rules/preferences by Keyclic. Install all dependencies, now based on prettier.",
+    "dependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-prettier": "^4.3.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2"
+    },
+    "devDependencies": {
+        "husky": "^2.4.1",
+        "pretty-quick": "^1.10.0"
+    },
+    "homepage": "https://github.com/Keyclic/eslint-config-keyclic#readme",
+    "keywords": [
+        "eslint",
+        "keyclic",
+        "lint",
+        "prettier"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Keyclic/eslint-config-keyclic.git"
+    },
+    "scripts": {
+        "build": "babel src --out-dir bundle",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
 }
